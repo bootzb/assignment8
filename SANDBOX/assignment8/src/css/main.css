@@ -1,0 +1,41 @@
+@import url(foundation.css);
+
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#answer1:hover {
+    transform: rotate(25deg);
+    transition: all .2s;
+}
+
+#answer2{
+    display: inline-block;
+    border: green solid 4px;
+    border-radius: 20px;
+}
+
+#answer2:hover {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+#answer3:hover {
+    width:420px;
+    outline: 5px solid green;
+    border-radius: 15px;
+    display:inline-block;
+    transition: all 0.2s;
+}
+#answer4 {
+    display: inline-block;
+    border-bottom: green solid 4px;
+}
+
+#answer4:hover {
+    background-color: green;
+    transition: 0.2s;
+}
